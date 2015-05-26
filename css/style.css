@@ -1,0 +1,23 @@
+body{
+font-family:'standard',Helvetica,Arial,sans-serif;
+font-weight:400;
+background-color:rgba(0,0,0,0.02);
+overflow-x:hidden;
+}
+@font-face{
+    font-family:standard;
+    src: url("../fonts/Raleway-Regular.ttf");
+}
+@font-face{
+    font-family:logo;
+    src: url("../fonts/Chunkfive.otf");
+}
+@font-face{
+    font-family:h;
+    src: url("../fonts/Zantroke.otf");
+}
+#logo span{
+font-family:h;
+text-transform:none;
+font-size:28px;
+}
