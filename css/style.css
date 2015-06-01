@@ -3,7 +3,12 @@ font-family:'standard',Helvetica,Arial,sans-serif;
 font-weight:400;
 background-color:rgba(0,0,0,0.02);
 overflow-x:hidden;
+background: -webkit-linear-gradient(left, #21a3a3, #7375A5, #2B364A); /* For Safari 5.1 to 6.0 */
+ background: -o-linear-gradient(right,  #21a3a3, #7375A5, #2B364A); /* For Opera 11.1 to 12.0 */
+ background: -moz-linear-gradient(right,  #21a3a3, #7375A5, #2B364A); /* For Firefox 3.6 to 15 */
+ background: linear-gradient(to right,  #21a3a3, #7375A5, #2B364A); /* Standard syntax */
 }
+
 @font-face{
     font-family:standard;
     src: url("../fonts/Raleway-Regular.ttf");
@@ -16,8 +21,48 @@ overflow-x:hidden;
     font-family:h;
     src: url("../fonts/Zantroke.otf");
 }
+p{
+color:#232230;
+z-index:1;
+}
+.button a{
+color:#fff;
+}
 #logo span{
 font-family:h;
 text-transform:none;
 font-size:28px;
+color:#b52200;
+}
+#hero{
+background-image: url('../img/img-decor-01.jpg');
+background-position:center;
+background-size:cover;
+height:400px;
+}
+#hero h1{
+font-family:logo;
+text-align:center;
+padding:2rem;
+color:#fff;
+
+}
+#hero .columns{
+
+}
+#hero #tohire{
+background-color:rgba(0,0,0,0.55);
+}
+#hero #towork{
+background-color:rgba(0,0,0,0.55);
+}
+#hero p{
+text-align:left;
+padding:1.5rem;
+color:#fff;
+font-size:24px;
+}
+#abouttime{
+background-color:#fff;
+padding:1.5rem;
 }
