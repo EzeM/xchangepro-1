@@ -1,14 +1,16 @@
 body{
 font-family:'standard',Helvetica,Arial,sans-serif;
-font-weight:400;
-background-color:rgba(0,0,0,0.02);
 overflow-x:hidden;
-background: -webkit-linear-gradient(left, #21a3a3, #7375A5, #2B364A); /* For Safari 5.1 to 6.0 */
- background: -o-linear-gradient(right,  #21a3a3, #7375A5, #2B364A); /* For Opera 11.1 to 12.0 */
- background: -moz-linear-gradient(right,  #21a3a3, #7375A5, #2B364A); /* For Firefox 3.6 to 15 */
- background: linear-gradient(to right,  #21a3a3, #7375A5, #2B364A); /* Standard syntax */
+background-color:#304860;
+font-family:standard;
 }
-
+ul li{
+color:#333333;
+}
+h1,h2,h3,h4,h5,h6{
+font-family:standard;
+font-weight:400;
+}
 @font-face{
     font-family:standard;
     src: url("../fonts/Raleway-Regular.ttf");
@@ -25,14 +27,23 @@ p{
 color:#232230;
 z-index:1;
 }
+h3 img{
+margin:0.5rem;
+width:32px;
+height:32px;
+}
+
 .button a{
 color:#fff;
 }
+
+/*------------Home Page Styles---------------*/
+
 #logo span{
 font-family:h;
 text-transform:none;
 font-size:28px;
-color:#b52200;
+color:#001830;
 }
 #hero{
 background-image: url('../img/img-decor-01.jpg');
@@ -66,3 +77,51 @@ font-size:24px;
 background-color:#fff;
 padding:1.5rem;
 }
+
+/*---------------User profile page  styles--------------*/
+#user1{
+position:fixed;
+margin-top:1rem;
+}
+#user1 img{
+margin:1rem;
+}
+#user1  .row{
+padding:1rem;
+margin:1rem;
+background-color:#f0f0f0;
+}
+ 
+#userabout,#activity,#skill,#education,#experience{
+background-color:#f0f0f0;
+}
+#user2 #userabout p{
+-webkit-column-count: 4; /* Chrome, Safari, Opera */
+	-moz-column-count:    4; /* Firefox */
+	column-count:         4;
+  	-webkit-column-gap:   20px; /* Chrome, Safari, Opera */ 
+	-moz-column-gap:      20px; /* Firefox */
+	column-gap:           20px;
+	column-rule-color: #ccc; /* Optional */
+	column-rule-style:solid; /* Optional */
+	column-rule-width: 1px; /* Optional */
+	text-align: justify; /* Optional */
+}#user2{
+margin-top:1rem;
+margin-bottom:1rem;
+}
+h3{
+color:#a777eb
+
+}
+#user2 .row{
+margin-top:1rem;
+background-color:#f0f0f0;
+padding:1.5rem;
+}
+#user2 .row ul li{
+margin-bottom:1.5rem;
+list-style-type:none;
+border-bottom:2px dashed #a777eb;
+border-width:50%;
+} 
