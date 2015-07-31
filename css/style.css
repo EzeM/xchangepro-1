@@ -1,15 +1,25 @@
 body{
-font-family:'standard',Helvetica,Arial,sans-serif;
-overflow-x:hidden;
-background-color:#304860;
 font-family:standard;
+overflow-x:hidden;
+color:black;
 }
+.container{
+background-color:#fff;
+}
+a{
+color:black;
+}
+#pageheader h2{
+text-align:center;
+}
+
 ul li{
 color:#333333;
 }
 h1,h2,h3,h4,h5,h6{
 font-family:standard;
 font-weight:400;
+color:#5298c0;
 }
 @font-face{
     font-family:standard;
@@ -24,18 +34,10 @@ font-weight:400;
     src: url("../fonts/Zantroke.otf");
 }
 p{
-color:#232230;
+color:#333333;
 z-index:1;
 }
-h3 img{
-margin:0.5rem;
-width:32px;
-height:32px;
-}
 
-.button a{
-color:#fff;
-}
 
 /*------------Home Page Styles---------------*/
 
@@ -43,13 +45,15 @@ color:#fff;
 font-family:h;
 text-transform:none;
 font-size:28px;
-color:#001830;
+color:#5298c0;
 }
 #hero{
 background-image: url('../img/img-decor-01.jpg');
 background-position:center;
 background-size:cover;
 height:400px;
+font-family:standard;
+
 }
 #hero h1{
 font-family:logo;
@@ -58,13 +62,7 @@ padding:2rem;
 color:#fff;
 
 }
-#hero .columns{
-
-}
-#hero #tohire{
-background-color:rgba(0,0,0,0.55);
-}
-#hero #towork{
+#hero #splash{
 background-color:rgba(0,0,0,0.55);
 }
 #hero p{
@@ -73,55 +71,40 @@ padding:1.5rem;
 color:#fff;
 font-size:24px;
 }
-#abouttime{
+#hire,#hireimg,#work,#workimg{
+padding:2em;
+color:#333333;
+font-size:1rem;
 background-color:#fff;
+font-family:standard;
+}
+#hireimg,#workimg img{
+height:;
+}
+#contact{
+text-align:center;
+float:center;
+font-family:standard;
+background-image:url('../img/bkg-blu.jpg');
+}
+#contact img{
 padding:1.5rem;
 }
-
+#footer span ul li{
+text-align:right;
+padding:1rem;
+float:right;
+list-style-type:none;
+display:block;
+}
 /*---------------User profile page  styles--------------*/
+
 #user1{
 position:fixed;
-margin-top:1rem;
 }
 #user1 img{
 margin:1rem;
 }
-#user1  .row{
-padding:1rem;
-margin:1rem;
-background-color:#f0f0f0;
-}
- 
 #userabout,#activity,#skill,#education,#experience{
-background-color:#f0f0f0;
-}
-#user2 #userabout p{
--webkit-column-count: 4; /* Chrome, Safari, Opera */
-	-moz-column-count:    4; /* Firefox */
-	column-count:         4;
-  	-webkit-column-gap:   20px; /* Chrome, Safari, Opera */ 
-	-moz-column-gap:      20px; /* Firefox */
-	column-gap:           20px;
-	column-rule-color: #ccc; /* Optional */
-	column-rule-style:solid; /* Optional */
-	column-rule-width: 1px; /* Optional */
-	text-align: justify; /* Optional */
-}#user2{
-margin-top:1rem;
-margin-bottom:1rem;
-}
-h3{
-color:#a777eb
 
 }
-#user2 .row{
-margin-top:1rem;
-background-color:#f0f0f0;
-padding:1.5rem;
-}
-#user2 .row ul li{
-margin-bottom:1.5rem;
-list-style-type:none;
-border-bottom:2px dashed #a777eb;
-border-width:50%;
-} 
