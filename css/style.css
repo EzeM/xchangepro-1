@@ -108,3 +108,9 @@ margin:1rem;
 #userabout,#activity,#skill,#education,#experience{
 
 }
+
+/*----NEW JOB POSTING STYLES-----------------*/
+
+input,select,textarea{
+color:black;
+}
